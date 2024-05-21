@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>leyenda_problem</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage("desde github");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 17:20:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9a215b19fd202107f449f0c3124abaf</sys_id>
+        <sys_name>leyenda_problem</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ConectividadGIthub" source="66ba39259f1202107f449f0c3124ab9a">66ba39259f1202107f449f0c3124ab9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ConectividadGIthub">66ba39259f1202107f449f0c3124ab9a</sys_scope>
+        <sys_update_name>sys_script_client_a9a215b19fd202107f449f0c3124abaf</sys_update_name>
+        <table>problem</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
